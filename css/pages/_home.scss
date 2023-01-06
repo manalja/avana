@@ -1,0 +1,26 @@
+.wrapper{
+    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   .colonne-gauche{
+    .avana-titre{
+        margin-left: 20%;
+        margin-top: 15%;
+        width: 500px;
+        height: 499px;
+        h1{
+           
+            font-size: 40px;
+          font-weight:bold;
+          span{
+            color: crimson;
+            font-size: 60px;
+          }
+        }
+        
+       
+    }
+   }
+}
