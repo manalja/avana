@@ -5,22 +5,184 @@
    justify-content: space-between;
    align-items: center;
    .colonne-gauche{
+    display: flex;
+   flex-direction: column;
+  justify-content: space-around;
     .avana-titre{
-        margin-left: 20%;
-        margin-top: 15%;
         width: 500px;
         height: 499px;
         h1{
            
-            font-size: 40px;
-          font-weight:bold;
+            font-size: 45px;
+          font-weight:600;
           span{
             color: crimson;
-            font-size: 60px;
+            font-size: 70px;
           }
+          
+        }
+        p{
+            font-weight: 500;
+            font-size: 18px;
+            width:80% ;
+            line-height: 28px;
+          }
+    }
+    .thonik-projet{
+        transition: .3s all ease-in-out;
+    overflow:hidden;
+        margin-bottom: 30px;
+        position: relative;
+        .content-thonik{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 90%;
+            h1{
+                font-size: 30px;
+                text-transform: uppercase;
+                color: white;
+                margin-left: 50px;
+
+            }
+            p{
+                color: white;
+                font-size: 0px;  
+                margin-left: 10%;
+                width: 80%;
+                text-align: center;
+                transition: .3s all ease-in-out; 
+            }
+        }
+        .content-thonik::before {
+            content:"";
+            transition: .8s all ease-in-out;
+        }
+        .content-thonik:hover::before {
+            content: "";
+            background: rgba(251, 83, 83, 0.596);
+            position:absolute;
+            height:100%;
+            width:100%;
+            display:inline-block;
+            z-index: 10;
         }
         
-       
+        .content-thonik:hover p {
+            font-size: 20px;
+        }
+        
+        
     }
+    .new-agency{
+        margin-bottom: 30px;
+        position: relative;
+        .content-new-agency{
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 90%;
+            h1{
+                font-size: 30px;
+                text-transform: uppercase;
+                color: white;
+                margin-left: 50px;
+
+            }
+            p{
+                color: white;
+                font-size: 20px;  
+                margin-left: 10%;
+                width: 80%;
+                text-align: center; 
+            }
+        }
+    }
+    
+   }
+   .colonne-droite{
+    .identity{
+        margin-bottom: 30px;
+        position: relative;
+        .content-identity{
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 90%;
+            h1{
+                font-size: 30px;
+                text-transform: uppercase;
+                color: white;
+                margin-left: 50px;
+
+            }
+            p{
+                color: white;
+                font-size: 20px;  
+                margin-left: 10%;
+                width: 80%;
+                text-align: center; 
+            }
+        }
+
+    }
+    .galleria{
+        margin-bottom: 30px;
+        position: relative;
+        .content-galleria{
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 90%;
+            h1{
+                font-size: 30px;
+                text-transform: uppercase;
+                color: white;
+                margin-left: 50px;
+
+            }
+            p{
+                color: white;
+                font-size: 20px;  
+                margin-left: 10%;
+                width: 80%;
+                text-align: center; 
+            }
+        }
+
+    }
+    .abrand{
+        margin-bottom: 30px;
+        position: relative;
+        .content-abrand{
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 90%;
+            h1{
+                font-size: 30px;
+                text-transform: uppercase;
+                color: white;
+                margin-left: 50px;
+
+            }
+            p{
+                color: white;
+                font-size: 20px;  
+                margin-left: 10%;
+                width: 80%;
+                text-align: center; 
+            }
+        }
+
+
+
+    }
+
    }
 }
