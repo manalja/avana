@@ -1,0 +1,130 @@
+.wrapper{
+    width: 100%;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: center;
+   .colonne-gauche{
+    display: flex;
+   flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  .news{
+    height: 500px;
+    width: 500px;
+    margin-left: 10%;
+    margin-top: 20%;
+   
+    h1{
+        font-size: 45px;
+      font-weight:600;
+      span{
+        color: #fb5353;
+        font-size: 70px;
+      }
+      
+    }
+    p{
+        font-weight: 500;
+        font-size: 18px;
+        width:80% ;
+        line-height: 28px;
+       
+      }
+    }
+    .blog{
+        position: relative;
+        img{
+            width: 95%;
+            overflow: hidden;
+            background-color: rgba(255,255,255,0.4);
+            cursor: pointer;
+            transition: 0.3s all ease-in-out;
+        }
+       
+        }
+       
+       
+        .date{
+            position: absolute;
+            left: 0;
+            top: 0;
+            background:#fb5353;
+            color: white;
+            padding: 10px 20px;
+            span{
+                font-size: 40px;
+                font-weight: bold;
+            }
+        }
+        .texte{
+            padding: 10px;
+            width: 94%;
+            p{
+                width: 70%;
+                font-size: 20px;
+                margin-left: 10%;
+                font-weight: bold;
+             
+            }
+           
+        }
+        .texte:hover{
+            color: white;
+            background: #fb5353;
+        }
+    }
+    .blog img:hover{
+        background: rgba(238, 24, 24, 0.788);
+       
+    }
+
+}
+
+.colonne-droite{
+    display: flex;
+   flex-direction: column;
+  align-items: flex-start;
+  .blog{
+    position: relative;
+    img{
+        width: 95%;
+        overflow: hidden;
+        background-color: rgba(255,255,255,0.4);
+        cursor: pointer;
+        transition: 0.3s all ease-in-out;
+    }
+   
+   
+   
+    .date{
+        position: absolute;
+        left: 0;
+        top: 0;
+        background:#fb5353 ;
+        color: white;
+        padding: 10px 20px;
+        span{
+            font-size: 40px;
+            font-weight: bold;
+        }
+    }
+    .texte{
+        padding: 10px;
+        width: 94%;
+        p{
+            width: 70%;
+            font-size: 20px;
+            margin-left: 10%;
+            font-weight: bold;
+         
+        }
+       
+    }
+    .texte:hover{
+        color: white;
+        background: #fb5353;
+    }
+  }
+}
+

@@ -1,5 +1,5 @@
 body{
-    width: 1170px;
+    width: 1190px;
     background: #f6f6f6;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -7,5 +7,8 @@ body{
     color: #353535;
    
     margin: 0 auto;
+    ::selection{
+        background: #fb5353;
+    }
    
 }

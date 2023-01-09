@@ -3,6 +3,7 @@
     display: flex;
    flex-direction: row;
    justify-content: space-between;
+   margin-bottom: 10%;
   
         height: 55vh;
    .we-do-texte{
@@ -33,7 +34,7 @@
             font-size: 45px;
           font-weight:600;
           span{
-            color: crimson;
+            color: #fb5353;
             font-size: 70px;
           }
           
@@ -47,5 +48,55 @@
    }
 
 }
-about-imag
-es
+.about-images{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ .about1{
+  position: relative;
+  
+ }
+  
+  .nom-fonction1{
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  color: white;
+    font-size: 16px;
+    background: #fb5353;
+    padding-right: 30px;
+    padding-left: 30px;
+    h3{
+      font-weight: 10;
+    }
+  }
+  .nom-fonction2{
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 16px; 
+    background: #fb5353;
+    padding-right: 30px;
+    padding-left: 30px;
+    h3{
+      font-weight: 10;
+    }
+  }
+  .nom-fonction3{
+    position: absolute;
+    bottom:-10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 16px;
+    background: #fb5353;
+    padding-right: 30px;
+    padding-left: 30px;
+    h3{
+      font-weight: 10;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 .wrapper{
     width: 100%;
    display: flex;
-   flex-wrap: wrap;
+   flex-wrap: nowrap;
    justify-content: space-between;
    align-items: center;
    .colonne-gauche{
@@ -16,7 +16,7 @@
             font-size: 45px;
           font-weight:600;
           span{
-            color: crimson;
+            color: #fb5353;
             font-size: 70px;
           }
           
@@ -63,8 +63,8 @@
             content: "";
             background: rgba(251, 83, 83, 0.596);
             position:absolute;
-            height:100%;
-            width:100%;
+            height:400%;
+            width:400%;
             display:inline-block;
             z-index: 10;
         }
